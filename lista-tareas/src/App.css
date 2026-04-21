@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: monospace;
+  background: white;
+  padding: 60px 24px;
+  color: #111;
+}
+
+.container {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 4px;
+}
+
+.stats {
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: 24px;
+}
+
+.task-input {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 6px 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-family: monospace;
+  font-size: 14px;
+  outline: none;
+}
+
+.task-input input:focus {
+  border-bottom-color: #111;
+}
+
+.task-list {
+  list-style: none;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.task-item span {
+  font-size: 14px;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 12px;
+  color: #888;
+  padding: 0;
+}
+
+button:hover {
+  color: #111;
+}
+
+button:last-child:hover {
+  color: #cc0000;
+}
+
+.tachado {
+  text-decoration: line-through;
+  color: #bbb;
+}
+
+.empty {
+  font-size: 13px;
+  color: #bbb;
+}
